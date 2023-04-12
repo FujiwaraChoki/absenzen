@@ -1,6 +1,6 @@
 const Hero = ({ logout }) => {
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: `url("https://images.squarespace-cdn.com/content/v1/569f26611c1210ba261734e2/1561621857321-SUCZEYO2SYRXUPIXMH5R/photo-1507358522600-9f71e620c44e.jpeg")` }}>
+        <div className="hero min-h-screen" style={{ backgroundImage: `url("https://www.bzz.ch/wp-content/themes/bzz/assets/img/bkg/bzz_bg_preview.jpg")` }}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">

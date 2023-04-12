@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "class_name": "I2a",
+        "teacher": "Mr. Smith"
+    },
+    {
+        "id": "2",
+        "class_name": "H2a",
+        "teacher": "Ms. Johnson"
+    },
+    {
+        "id": "3",
+        "class_name": "V1a",
+        "teacher": "Mrs. Lee"
+    }
+]

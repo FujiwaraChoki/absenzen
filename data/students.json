@@ -1,0 +1,283 @@
+[
+  {
+    "name": "Lena Brown",
+    "address": "4404 Summit Street, Greenville, NC 27834",
+    "email": "lenabrown@bzz.ch",
+    "password": "3q3vLmwY64",
+    "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "2",
+    "absences_details": [
+      {
+        "id": "1",
+        "date": "2019-01-01",
+        "reason": "Krank",
+        "excused": "true"
+      },
+      {
+        "id": "2",
+        "date": "2019-01-02",
+        "reason": "Krank",
+        "excused": "false"
+      }
+    ]
+  },
+  {
+    "name": "Aaron Lee",
+    "address": "3834 Clark Street, Charlotte, NC 28205",
+    "email": "aaronlee@bzz.ch",
+    "password": "eHHG6bUDz6",
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "1",
+    "absences_details": [
+      {
+        "id": "1",
+        "date": "2019-01-01",
+        "reason": "Konstipation",
+        "excused": "true"
+      }
+    ]
+  },
+  {
+    "name": "Emily Green",
+    "address": "4229 Bridge Street, Tulsa, OK 74106",
+    "email": "emilygreen@bzz.ch",
+    "password": "5zksfZSVU9",
+    "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "4",
+    "absences_details": [
+      {
+        "id": "1",
+        "date": "2019-01-01",
+        "reason": "DELF-Prüfung",
+        "excused": "true"
+      },
+      {
+        "id": "2",
+        "date": "2019-01-02",
+        "reason": "DELF-Prüfung",
+        "excused": "true"
+      },
+      {
+        "id": "3",
+        "date": "2019-03-05",
+        "reason": "Krank",
+        "excused": "false"
+      },
+      {
+        "id": "4",
+        "date": "2019-04-04",
+        "reason": "Krank",
+        "excused": "false"
+      }
+    ]
+  },
+  {
+    "name": "Ethan Rodriguez",
+    "address": "4168 Johnson Street, Raleigh, NC 27604",
+    "email": "ethanrodriguez@bzz.ch",
+    "password": "8vxYyFGRN2",
+    "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "3",
+    "absences_details": [
+      {
+        "id": "1",
+        "date": "2019-01-01",
+        "reason": "Krank",
+        "excused": "false"
+      },
+      {
+        "id": "2",
+        "date": "2019-01-02",
+        "reason": "Krank",
+        "excused": "true"
+      },
+      {
+        "id": "3",
+        "date": "2019-03-05",
+        "reason": "Krank",
+        "excused": "true"
+      }
+    ]
+  },
+  {
+    "name": "Olivia Hernandez",
+    "address": "2722 Robinson Court, Saginaw, MI 48607",
+    "email": "oliviahernandez@bzz.ch",
+    "password": "4gKjG3vTS9",
+    "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "0",
+    "absences_details": []
+  },
+  {
+    "name": "Cameron Clark",
+    "address": "2338 Woodland Drive, Greensboro, NC 27401",
+    "email": "cameronclark@bzz.ch",
+    "password": "2cHgSvYRn4",
+    "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "9",
+    "absences_details": [
+      {
+        "id": 1,
+        "date": "2022-09-01",
+        "reason": "Krank",
+        "excused": "true"
+      },
+      {
+        "id": 2,
+        "date": "2022-09-05",
+        "reason": "Notfall Familie",
+        "excused": "true"
+      },
+      {
+        "id": 3,
+        "date": "2022-09-12",
+        "reason": "Doktor Termin",
+        "excused": "true"
+      },
+      {
+        "id": 4,
+        "date": "2022-09-15",
+        "reason": "Religiöser Feiertag",
+        "excused": "true"
+      },
+      {
+        "id": 5,
+        "date": "2022-09-20",
+        "reason": "Mental health-Tag",
+        "excused": "true"
+      },
+      {
+        "id": 6,
+        "date": "2022-09-26",
+        "reason": "Reisen mit Familie",
+        "excused": "false"
+      },
+      {
+        "id": 7,
+        "date": "2022-10-01",
+        "reason": "Krank",
+        "excused": "true"
+      },
+      {
+        "id": 8,
+        "date": "2022-10-03",
+        "reason": "Notfall Familie",
+        "excused": "false"
+      },
+      {
+        "id": 9,
+        "date": "2022-10-10",
+        "reason": "Doktor Termin",
+        "excused": "true"
+      }
+    ]
+  },
+  {
+    "name": "Emma Smith",
+    "address": "3808 Ocala Street, Orlando, FL 32808",
+    "email": "emmasmith@bzz.ch",
+    "password": "7wRmP6zEK8",
+    "avatar": "https://randomuser.me/api/portraits/women/4.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "6",
+    "absences_details": [
+      {
+        "id": 1,
+        "date": "2022-09-01",
+        "reason": "Krankheit",
+        "excused": "false"
+      },
+      {
+        "id": 2,
+        "date": "2022-10-15",
+        "reason": "Ferien mit Familie",
+        "excused": "true"
+      },
+      {
+        "id": 3,
+        "date": "2022-11-22",
+        "reason": "Doktor Termin",
+        "excused": "true"
+      },
+      {
+        "id": 4,
+        "date": "2022-12-10",
+        "reason": "Todesfall",
+        "excused": "true"
+      },
+      {
+        "id": 5,
+        "date": "2023-01-07",
+        "reason": "Schneesturm",
+        "excused": "false"
+      },
+      {
+        "id": 6,
+        "date": "2023-02-14",
+        "reason": "Schulveranstaltung",
+        "excused": "true"
+      }
+    ]
+  },
+  {
+    "name": "Jacob Martinez",
+    "address": "2949 Elliott Street, Charlotte, NC 28208",
+    "email": "jacobmartinez@bzz.ch",
+    "password": "9jKxV5GTW6",
+    "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "1",
+    "absences_details": [
+      {
+        "id": 1,
+        "date": "2023-04-12",
+        "reason": "Krank",
+        "excused": "true"
+      }
+    ]
+  },
+  {
+    "name": "Sophia Davis",
+    "address": "3332 Armbrester Drive, Sacramento, CA 95814",
+    "email": "sophiadavis@bzz.ch",
+    "password": "4tJwD8bFV7",
+    "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
+    "class": "H2a",
+    "teacher": "Mr. Smith",
+    "absences": "3",
+    "absences_details": [
+      {
+        "id": 1,
+        "date": "2023-04-12",
+        "reason": "Doktor Termin",
+        "excused": "true"
+      },
+      {
+        "id": 2,
+        "date": "2023-04-10",
+        "reason": "Notfall Familie",
+        "excused": "true"
+      },
+      {
+        "id": 3,
+        "date": "2023-04-06",
+        "reason": "Bauchschmerzen",
+        "excused": "true"
+      }
+    ]
+  }
+]

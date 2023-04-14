@@ -10,6 +10,6 @@ Das UI für mein Vorschlags-Absenzensystem für das BZZ. Diese Webseite wurde f�
 
 ## Anmelde-Daten
 
-| **E-Mail**         | **Password** |
-|--------------------|--------------|
-| sami@samihindi.com | test123!     |
+| **E-Mail**         	| **Password** 	|
+|--------------------	|--------------	|
+| sami@samihindi.com 	| test123!     	|

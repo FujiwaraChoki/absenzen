@@ -40,8 +40,9 @@ const Dashboard = () => {
                                     </label>
                                 </th>
                                 <th>Name</th>
-                                <th>Class</th>
-                                <th>Email</th>
+                                <th>Klasse</th>
+                                <th>E-Mail</th>
+                                <th>Absenzen</th>
                                 <th></th>
                             </tr>
                         </thead>

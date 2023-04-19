@@ -134,7 +134,14 @@ const Student = ({ absences, class_, avatar, name, absences_details, teacher, em
                                             <tr key={absence.id}>
                                                 <th>{absence.id}</th>
                                                 <td>{absence.date}</td>
-                                                <td>{absence.reason}</td>
+                                                <td>
+                                                    <select className="input input-bordered w-64 p-5 m-2" value={absence.reason}>
+                                                        <option value="Anwesend">Anwesend</option>
+                                                        <option value="Krankheit">Krankheit</option>
+                                                        <option value="Ferien">Ferien</option>
+                                                        <option value="Andere">Andere</option>
+                                                    </select>
+                                                </td>
                                                 <td>{teacher}</td>
                                             </tr>
                                         ))

@@ -2,6 +2,7 @@ import styles from '../styles/Dashboard.module.css'
 import students from '../data/students.json'
 import Link from 'next/link'
 import UserContext from '@/context/UserContext'
+import SearchContext from '@/context/SearchContext'
 import Student from '@/components/Student'
 import { useRouter } from 'next/router'
 import { useState, useEffect, useContext } from 'react'
@@ -10,7 +11,6 @@ const Dashboard = () => {
     const [currentTab, setCurrentTab] = useState('student')
     const [content, setContent] = useState('')
     const [count, setCount] = useState(0)
-    const [selectedStudent, setSelectedStudent] = useState(null)
     const { user } = useContext(UserContext)
     const router = useRouter()
 
@@ -18,7 +18,11 @@ const Dashboard = () => {
         if (!user) {
             router.push('/')
         }
-    }, [])
+    }, []);
+
+    useEffect(() => {
+
+    })
 
     useEffect(() => {
         let absenceCount = 0
@@ -34,11 +38,6 @@ const Dashboard = () => {
                     <table className="table w-full">
                         <thead>
                             <tr>
-                                <th>
-                                    <label>
-                                        <input type="checkbox" className="checkbox" />
-                                    </label>
-                                </th>
                                 <th>Name</th>
                                 <th>Klasse</th>
                                 <th>E-Mail</th>
@@ -92,8 +91,6 @@ const Dashboard = () => {
                     </table>
                 </div>
             )
-        } else if (currentTab === 'details') {
-            <Student student={selectedStudent} />
         }
     }, []);
 

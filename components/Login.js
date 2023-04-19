@@ -79,7 +79,7 @@ const LoginModal = () => {
                             </label>
                             <input onChange={(e) => {
                                 setPassword(e.target.value);
-                            }} type="text" placeholder="Dein Passwort" className="input input-bordered" />
+                            }} type="password" placeholder="Dein Passwort" className="input input-bordered" />
                             <label className="label">
                                 <Link href="/forgot" className="label-text-alt link link-hover">Passwort vergessen?</Link>
                             </label>

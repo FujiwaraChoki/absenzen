@@ -22,7 +22,7 @@ const Dashboard = () => {
     }, []);
 
     useEffect(() => {
-        if (search) {
+        if (search !== '') {
             let results = students.filter((student) => {
                 return student.name.toLowerCase().includes(search.toLowerCase())
             })

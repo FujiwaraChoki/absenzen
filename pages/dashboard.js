@@ -49,11 +49,6 @@ const Dashboard = () => {
                         <tbody>
                             {students.map((student) => (
                                 <tr key={student.name}>
-                                    <th>
-                                        <label>
-                                            <input type="checkbox" className="checkbox" />
-                                        </label>
-                                    </th>
                                     <td>
                                         <Link className="flex items-center space-x-3" href={`/student/${student.email}`}>
                                             <div className="avatar">

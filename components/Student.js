@@ -137,17 +137,6 @@ const Student = ({ absences, class_, avatar, name, absences_details, teacher, em
                                                 <td>{absence.date}</td>
                                                 <td>{absence.reason}</td>
                                                 <td>{teacher}</td>
-                                                {
-                                                    absence.excused === "true" ? (
-                                                        <td className="text-lg text-center">
-                                                            <input type="checkbox" checked={true} className="checkbox checkbox-primary" />
-                                                        </td>
-                                                    ) : (
-                                                        <td className="text-lg text-center">
-                                                            <input type="checkbox" className="checkbox checkbox-primary" />
-                                                        </td>
-                                                    )
-                                                }
                                             </tr>
                                         ))
                                     }

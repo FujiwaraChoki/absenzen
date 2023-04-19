@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 const Home = () => {
-  const [search, setSearch] = useState('');
   const [logout, setLogout] = useState(false);
   const router = useRouter();
 
@@ -23,7 +22,7 @@ const Home = () => {
 
   return (
     <div>
-      <Hero logout={logout}/>
+      <Hero logout={logout} />
       <LoginModal />
     </div>
   );

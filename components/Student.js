@@ -126,7 +126,6 @@ const Student = ({ absences, class_, avatar, name, absences_details, teacher, em
                                         <th>Datum</th>
                                         <th>Grund</th>
                                         <th>Lehrer</th>
-                                        <th>Entschuldigt</th>
                                     </tr>
                                 </thead>
                                 <tbody>

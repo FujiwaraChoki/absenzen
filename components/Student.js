@@ -82,7 +82,9 @@ const Student = ({ absences, class_, avatar, name, absences_details, teacher, em
             </div>
             <div className={styles.centeredDiv}>
                 <div className="btn-group btn-group-vertical w-44 m-5 content-center">
-                    <label htmlFor="absenz-eintragen-modal" className="btn">Absenz eintragen</label>
+                    {
+                        //<label htmlFor="absenz-eintragen-modal" className="btn">Absenz eintragen</label>
+                    }
                     {absences < limit ? (
                         <button onClick={() => setOpen(true)} className="btn" type="button">
                             Meeting

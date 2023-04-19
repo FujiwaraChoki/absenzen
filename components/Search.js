@@ -22,6 +22,13 @@ const Search = () => {
                     <div className="mt-4">
                         <input type="date" id="day" name="day" placeholder="Datum" />
                     </div>
+                    <div className="mt-4">
+                        <select className="select select-primary">
+                            <option hidden selected>Klasse auswählen</option>
+                            <option>H2A</option>
+                            <option>I2A</option>
+                        </select>
+                    </div>
                 </form>
             </label>
         </>
